@@ -11,7 +11,7 @@ I created a new folder called *front-end* and initialized a Git repository insid
 
 Finally, I created a new public GitHub repository and pushed my local project there successfully. Now my project structure is organized, and I understand better how Git and GitHub work together in software development.
 
-##Module tasklist
+## Module tasklist
 
 **27.10.2025**
 
@@ -24,3 +24,11 @@ After the HTML structure was well done , I created the core CSS for my front-end
 I learned to use display: flex more effectively to align items and organize page sections in a responsive way. I also discovered new and useful CSS properties such as list-style, which I used to remove bullets from navigation menus. Another important idea I learned was to give every image inside a div a max-width of 100%, so the images automatically adjust to the container and never stretch outside it.
 
 The use of CSS variables was also something I already knew, but I now understand more clearly how they make styling more flexible and easier to maintain across the entire project. Overall, this part strengthened my confidence with modern CSS techniques and responsive design.
+
+**28.10.2025**
+
+In the third section of the video, I learned how to create a pure CSS button without using any external libraries. I understood how to style a button with CSS by adjusting properties like color, borders, backgrounds, and hover effects.
+
+I also learned what utility classes are and how they make styling much easier. They allow you to quickly modify elements without writing new CSS each time — for example, changing colors, margins, or text size by simply adding a class to the HTML element.
+
+Overall, I learned how utility classes make the code more reusable and organized, and how they can be used to manipulate the appearance and layout of buttons efficiently.

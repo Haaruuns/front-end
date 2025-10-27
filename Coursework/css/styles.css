@@ -4,6 +4,12 @@
     padding: 0
 }
 
+:root {
+    --primary-color: rgb(255, 0, 208);
+    --light-color: #f4f4f6;
+    --dark-color: #111;
+}
+
 body {
     font-style: "Poppins", san-serif;
     font-size: 16px;
@@ -12,7 +18,7 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(255, 0, 208);
+    color: var(--primary-color);
 }
 
 ul {
@@ -37,7 +43,7 @@ img {
     display: flex;
 }
 
-.navbar a {
+.navbar ul li a {
     padding: 10px 20px;
     display: block;
     font-weight:600;
@@ -46,4 +52,196 @@ img {
 
 .navbar ul a:hover{
     color: blue;
+}
+
+.navbar ul li:last-child a {
+    margin-left: 10px
+}
+
+.navbar ul li a i {
+    margin-right: 10px
+}
+.hero {
+    margin-bottom: 50px
+}
+.hero .container {
+    background: url("../images/hero-bg.png") no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    height: 550px;
+}
+
+.hero .heading {
+    width: 70%
+}
+
+.hero .text {
+    width: 70%;
+}
+
+.video {
+    padding: 10px 0 40px
+}
+
+.video .video-content {
+    display:flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.video .video-preview {
+    margin-bottom: 20px;
+}
+
+.testimonials {
+    padding: 40px 0px;
+}
+
+.testimonials .testimonial-heading {
+    width: 700px;
+    margin-bottom: 40px;
+}
+
+.testimonials .card p:nth-child(2) {
+    font-weight: bold;
+    margin-top: 30px
+}
+
+.testimonials .testimonials-grid {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px
+}
+
+.pricing .pricing-grid {
+    margin-top: 40px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.pricing .card-subheading {
+    margin-bottom: 30px;
+}
+
+.pricing ul {
+    margin: 30px 0;
+}
+
+.pricing ul li {
+    margin-bottom: 20px;
+}
+
+.pricing ul li i{
+    margin-right: 10px;
+}
+
+.pricing .card-price {
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.pricing .pricing-footer {
+    margin: 30px 0
+}
+
+.card {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px
+}
+
+/* Utility classes */
+.container {
+    width:1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-sm {
+    width: 800px;;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text-xxl {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
+}
+
+.text-xl {
+    font-size: 2.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+}
+
+.text-lg {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 30px 0 20px;
+}  
+ 
+.text-md {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 10px;
+}  
+
+.text-sm {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: var(--light-color);
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: blue;
+}
+
+.btn-block {
+    display:block;
+    width: 100%
+}
+
+.bg-black {
+    background: #000;
+    color: #fff;
+}
+
+.bg-dark {
+    background: var(--dark-color);
+    color: #fff;
+}
+
+.bg-light {
+    background: var(--light-color)
 }
