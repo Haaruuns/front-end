@@ -173,8 +173,6 @@ img {
     text-align: center;
 }
 
-
-
 .faq .faq-group {
     border-bottom: 1px solid var(--primary-color);
 }
@@ -205,14 +203,48 @@ img {
 .faq .faq-group-body.open {
     display:block
 }
-    
 
-.card {
-    background: #fff;
-    color: #000;
-    border-radius: 10px;
-    padding: 20px
+.footer {
+    padding: 40px 0;
 }
+
+.footer h4 {
+    margin-bottom: 10px
+}
+
+.footer .footer-grid {
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul li {
+    line-height: 2.5;
+}
+
+.footer a {
+    color: var(--primary-color);
+}
+
+.footer input[type="email"] {
+    width:100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.footer .card {
+    margin: 20px 30px 30px 0;
+}
+
+.footer i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
 
 /* Utility classes */
 .container {
@@ -222,9 +254,16 @@ img {
 }
 
 .container-sm {
-    width: 800px;;
+    width: 800px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.card {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px
 }
 
 .text-xxl {
