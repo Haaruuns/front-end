@@ -34,3 +34,12 @@ I also learned what utility classes are and how they make styling much easier. T
 Overall, I learned how utility classes make the code more reusable and organized, and how they can be used to manipulate the appearance and layout of buttons efficiently.
 
 In the CSS Grid & Cards section of the video I created testimonial cards and a pricing section using CSS Grid. I learned how to use for example the property grid-template-columns: repeat(3, 1fr); to arrange elements evenly in three columns. CSS Grid works also similarly to Flexbox. By using Grid and other new CSS properties, I was able to create a clean, organized, and responsive layout for the content on the page.
+
+In the FAQ elements section of the video I added a FAQ section with an accordion effect. It felt really good to see the page become more interactive. It made the website feel much more alive.
+
+While doing this, I learned some new JavaScript tricks, like classList.toggle() for showing and hiding the answers, and e.target.closest(). These little discoveries made me understand the DOM much better.
+
+In CSS, I got more comfortable with specific selectors, for example input 
+'[type="email"']', and I also used .faq-group-body.open to style the FAQ item when it’s opened. Seeing how CSS and JavaScript work together like that was a nice "aha" moment.
+
+I also created a footer with navigation links. Overall, I improved my understanding of how JavaScript and CSS work together to build interactive web components.
