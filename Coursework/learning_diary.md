@@ -27,8 +27,10 @@ The use of CSS variables was also something I already knew, but I now understand
 
 **28.10.2025**
 
-In the third section of the video, I learned how to create a pure CSS button without using any external libraries. I understood how to style a button with CSS by adjusting properties like color, borders, backgrounds, and hover effects.
+In the Buttons & Utility Classes section of the video, I learned how to create a pure CSS button without using any external libraries. I understood how to style a button with CSS by adjusting properties like color, borders, backgrounds, and hover effects.
 
 I also learned what utility classes are and how they make styling much easier. They allow you to quickly modify elements without writing new CSS each time — for example, changing colors, margins, or text size by simply adding a class to the HTML element.
 
 Overall, I learned how utility classes make the code more reusable and organized, and how they can be used to manipulate the appearance and layout of buttons efficiently.
+
+In the CSS Grid & Cards section of the video I created testimonial cards and a pricing section using CSS Grid. I learned how to use for example the property grid-template-columns: repeat(3, 1fr); to arrange elements evenly in three columns. CSS Grid works also similarly to Flexbox. By using Grid and other new CSS properties, I was able to create a clean, organized, and responsive layout for the content on the page.
