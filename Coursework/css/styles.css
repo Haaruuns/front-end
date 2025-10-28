@@ -146,6 +146,67 @@ img {
     margin: 30px 0
 }
 
+.faq {
+    padding:40px
+}
+
+.faq .faq-menu {
+    max-width:400px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    background: #ddd;
+    border-radius:10px;
+    padding: 10px 20px;
+}
+
+.faq .faq-menu li.active{
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.faq .faq-menu li{
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+
+.faq .faq-group {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.faq .faq-group-header h4{
+    font-weight: 600;
+    width: 90%
+}
+
+.faq .faq-group-header{
+    position: relative;
+    margin-bottom:10px;
+    padding: 20px 0;
+}
+
+.faq .faq-group-header i {
+    position:absolute;
+    right:0;
+    top: 30px;
+    cursor: pointer;
+    font-size: 20px
+}
+
+.faq .faq-group-body {
+    display: none
+}
+
+.faq .faq-group-body.open {
+    display:block
+}
+    
+
 .card {
     background: #fff;
     color: #000;
