@@ -43,3 +43,9 @@ In CSS, I got more comfortable with specific selectors, for example input
  `[type="email"] `, and I also used .faq-group-body.open to style the FAQ item when it’s opened. Seeing how CSS and JavaScript work together like that was a nice "aha" moment.
 
 I also created a footer with navigation links. Overall, I improved my understanding of how JavaScript and CSS work together to build interactive web components.
+
+**03.11.2025**
+
+In this stage, I focused on making the website fully responsive and setting up the mobile hamburger menu. Initially, the layout broke on smaller screens, and elements were not scaling correctly. After reviewing the structure, I discovered the problem came from using fixed width values in my container classes instead of max-width. Changing this made the layout flexible, allowing it to adapt smoothly to different screen sizes.
+
+I also learned how to adjust multiple elements at once within media queries, which helped optimize the styling and avoid repetitive code. Throughout this process, I gained a better understanding of responsive design principles, how media queries control layout behavior, and how important flexible sizing is for mobile usability. The result is a fully responsive layout that looks clean and functions properly on both desktop and mobile devices.
