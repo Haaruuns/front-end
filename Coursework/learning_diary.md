@@ -40,6 +40,6 @@ In the FAQ elements section of the video I added a FAQ section with an accordion
 While doing this, I learned some new JavaScript tricks, like classList.toggle() for showing and hiding the answers, and e.target.closest(). These little discoveries made me understand the DOM much better.
 
 In CSS, I got more comfortable with specific selectors, for example input 
-'[type="email"']', and I also used .faq-group-body.open to style the FAQ item when it’s opened. Seeing how CSS and JavaScript work together like that was a nice "aha" moment.
+ `[type="email"] `, and I also used .faq-group-body.open to style the FAQ item when it’s opened. Seeing how CSS and JavaScript work together like that was a nice "aha" moment.
 
 I also created a footer with navigation links. Overall, I improved my understanding of how JavaScript and CSS work together to build interactive web components.
