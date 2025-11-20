@@ -49,3 +49,15 @@ I also created a footer with navigation links. Overall, I improved my understand
 In this stage, I focused on making the website fully responsive and setting up the mobile hamburger menu. Initially, the layout broke on smaller screens, and elements were not scaling correctly. After reviewing the structure, I discovered the problem came from using fixed width values in my container classes instead of max-width. Changing this made the layout flexible, allowing it to adapt smoothly to different screen sizes.
 
 I also learned how to adjust multiple elements at once within media queries, which helped optimize the styling and avoid repetitive code. Throughout this process, I gained a better understanding of responsive design principles, how media queries control layout behavior, and how important flexible sizing is for mobile usability. The result is a fully responsive layout that looks clean and functions properly on both desktop and mobile devices.
+
+
+## Football Training Academy Project 
+**17.11.2025 - 20.11.2025**
+
+For this project, I created a complete landing page for a fictional Football Training Academy. The site includes a hero section, navigation bar, mobile hamburger menu, testimonial cards, pricing plans, and a footer. My goal was to build a clean, modern, and fully responsive website following a structure that is commonly used in professional landing pages.
+
+During development, I intentionally reused parts of my previous project, which was a SaaS-style landing page. Since both websites share a similar layout structure (hero section, content cards, grid layouts, and a responsive navigation menu), reusing my earlier code helped me work faster and understand the overall page architecture more efficiently.
+
+Even though I used the old project as a foundation, I still made many changes myself. I redesigned the entire visual style to match the football theme, updated the color palette, typography, and spacing, and created new card layouts and content. Unlike my earlier project, I didn’t use a hero background image—this time, I designed a simpler layout with text and an image side by side. I also adjusted several CSS sections, such as grid layouts and mobile breakpoints, so the content would fit this new project properly.
+
+Overall, reusing my previous code turned out to be a very effective way to learn. It allowed me to recognize where I’ve improved since the last project and helped me refine my code structure, utility classes, and responsive design techniques. I also learned how to improve and clean up my old code so it would work better for this new project. This process strengthened my understanding of front-end development and showed how reusable code can be adapted to different types of projects.
